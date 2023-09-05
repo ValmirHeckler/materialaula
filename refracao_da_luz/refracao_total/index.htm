@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<LINK rel="STYLESHEET" type="text/css" href="file:///D|/tmp/val/fisica_1/fisica/physlets/capit_9/styles_physlet.css">
+<script language="JavaScript"> 
+function prob23_7(){
+     document.Optics.setDefault();
+	  document.Optics.addIndexChange(1.0,1.4);
+	  document.Optics.addIndexChange(2.0,-1.4);
+     document.Optics.setDirection(1);
+	  document.Optics.setPropertyDrag(true);
+	  document.Optics.setDrag(true);
+	  document.Optics.setRayRGB(255,255,255);
+     document.Optics.addISource(1.5,-0.5,100,-1.0);
+}
+</script>
+
+<title>Reflex&atilde;o Total </title>
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+.style3 {font-size: 9px}
+.style9 {
+	color: #000000;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+}
+-->
+</style>
+</head>
+<body onload="prob23_7()">
+
+<p align="center"><font color="#000099" size="4" face="Verdana, Arial, Helvetica, sans-serif"><b>5.3 - Reflex&atilde;o Total </b></font></p>
+<p align="justify"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Supondo-se  possuir um fonte de luz, num meio 2 de &iacute;ndice de refra&ccedil;&atilde;o (n<sub>2</sub>), emitindo os raios de luz, os quais se propagam do meio 2 para o meio 1, com &iacute;ndice de refra&ccedil;&atilde;o (n<sub>1</sub>), e sabendo-se que n<sub>2</sub> &eacute; &gt; n<sub>1</sub>, ou seja, que a luz se propaga de um meio mais refringente para um meio menos refringente, observa-se que o raio de luz que incide normalmente &agrave; superf&iacute;cie sofre refra&ccedil;&atilde;o sem sofrer desvio (simula&ccedil;&atilde;o 5.3.1).</font></p>
+<p align="center"><img src="../../img/reflexao_total.gif" width="350" height="320"><br>
+    <font face="Verdana, Arial, Helvetica, sans-serif" size="1">Simula&ccedil;&atilde;o 5.3.1 - Simulando simultaneamente a reflex&atilde;o e refra&ccedil;&atilde;o de luz.</font></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Ao analisar-se agora casos em que acontece propaga&ccedil;&atilde;o de luz de forma obl&iacute;qua, levando em considera&ccedil;&atilde;o os dois meios (meio 1 e meio 2), estudados acima, e onde a fonte de luz se propaga do meio mais refringente para o meio menos refringente. Observe que o &acirc;ngulo de incid&ecirc;ncia (i) &eacute; menor do que &acirc;ngulo de refra&ccedil;&atilde;o (r), para posi&ccedil;&atilde;o 1 da fonte de luz, e a medida que aumentamos o &acirc;ngulo de incid&ecirc;ncia (i), aumenta o &acirc;ngulo de refra&ccedil;&atilde;o (r) e a quantidade de luz refletida na posi&ccedil;&atilde;o 2 da fonte de luz (simula&ccedil;&atilde;o 5.3.2).</font></p>
+<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><img src="../../img/reflexao_total2.gif" width="350" height="320"> <br>
+  Simula&ccedil;&atilde;o 5.3.2 - Simulando incid&ecirc;ncia de luz obl&iacute;qua, variando o &acirc;ngulo de incid&ecirc;ncia (i) e refra&ccedil;&atilde;o (r). </font></p>
+<p align="justify"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Ao aumentar-se ainda mais o &acirc;ngulo de incid&ecirc;ncia (i) da luz em rela&ccedil;&atilde;o a reta normal, chegar&aacute; &agrave; um &acirc;ngulo limite (&acirc;ngulo cr&iacute;tico), para os raios incidentes a partir do qual n&atilde;o haver&aacute; mais refra&ccedil;&atilde;o, o m&aacute;ximo valor do &acirc;ngulo de incid&ecirc;ncia (i), para o qual ocorre refra&ccedil;&atilde;o, corresponde &agrave; luz emergindo horizontalmente &agrave; superf&iacute;cie, onde r=90<sup>0</sup> (simula&ccedil;&atilde;o 5.3.3). O &acirc;ngulo de incid&ecirc;ncia (i) para que aconte&ccedil;a a reflex&atilde;o total quando a luz passa do meio 2 para o meio 1 pode ser determinado a partir da rela&ccedil;&atilde;o <b>n<sub>1</sub></b></font><font size="2"><b>.<font face="Verdana, Arial, Helvetica, sans-serif">sen(i)=n<sub>2</sub></font>.<font face="Verdana, Arial, Helvetica, sans-serif">sen(r)</font></b><font face="Verdana, Arial, Helvetica, sans-serif">, indicaremos o &acirc;ngulo cr&iacute;tico pela letra L (i=L e r=90<sup>0</sup>) e substituindo na rela&ccedil;&atilde;o obteremos o seno do &acirc;ngulo limite L: <b>n<sub>1</sub></b></font><b>.<font face="Verdana, Arial, Helvetica, sans-serif">sen(90<sup>0</sup>)=n<sub>2</sub></font>.<font face="Verdana, Arial, Helvetica, sans-serif">sen(L)</font></b><font face="Verdana, Arial, Helvetica, sans-serif">,</font> <font face="Verdana, Arial, Helvetica, sans-serif">o que correponde: <b>sen(L)</b></font>=<font face="Verdana, Arial, Helvetica, sans-serif"><b>n<sub>1</sub></b></font>/<b><font face="Verdana, Arial, Helvetica, sans-serif">n<sub>2</sub></font></b></font></p>
+<p align="center"><img src="../../img/reflexao_total3.gif" width="350" height="320"><br>
+    <font face="Verdana, Arial, Helvetica, sans-serif" size="1">Simula&ccedil;&atilde;o 5.3.3 - Simulando incid&ecirc;ncia de luz obl&iacute;qua, para um &acirc;ngulo cr&iacute;tico (L) e &acirc;ngulo maior que L. </font></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">A reflex&atilde;o total acontece, nas fibras &oacute;ticas condutoras de luz, tendo aplicabilidade nos endosc&oacute;pios para observar &oacute;rg&atilde;os internos do corpo humano e nas telecomunica&ccedil;&otilde;es.</font></p>
+<p align="justify" class="style1"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">No simulador abaixo (simula&ccedil;&atilde;o 5.5.3), um conjunto de raios em paralelo est&atilde;o experimentando uma propaga&ccedil;&atilde;o para a direita sendo refracionados quando batem e deixam um meio refletor. As posi&ccedil;&otilde;es da fonte e do &acirc;ngulo da fonte podem ser ajustadas clicando-se e arrastando o mouse.&nbsp;  Voc&ecirc; com aux&iacute;lio do mouse poder&aacute; simular algumas situa&ccedil;&otilde;es diferenciadas, dever&aacute;s observar o que acontece com os raios de luz, quando eles atingem um certo valor, qual &eacute; este valor, quando os raios deixam o meio refletor?</font></p>
+<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">  <applet codebase="../../interferencia/fontes_e_ondas_coerentes/classes/" archive="Optics4_.jar,STools4.jar" code="optics.OpticsApplet.class"
+name="Optics" id="Optics" width="300" height="400" hspace="0" vspace="0"
+align="middle">
+    <param name="ShowControls" value="false">
+    <param name="PixPerUnit" value="100">
+      </applet>
+    <br>
+    </font><span class="style3"><font face="Verdana, Arial, Helvetica, sans-serif">Simulador 5.5.3- Simulador de um conjunto de raios - desenvolvido por <B>Davidson College. </B></font></span></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#000099"><b>Resolva as atividades abaixo</b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2">:</font></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">1- Calcule o &acirc;ngulo cr&iacute;tico (L), a partir do qual n&atilde;o mais ocorre refra&ccedil;&atilde;o, quando a fonte de luz incidir luz do meio 1 (vidro) para o meio 2 (ar). Dados n<sub>vidro</sub>= 1,5 e n<sub>ar</sub>= 1,0.</font></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">2- Explique usando conceitos de reflex&atilde;o total o funcionamento das fibras &oacute;pticas.</font></p>
+<p align="justify"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">3- Usando a rela&ccedil;&atilde;o: </font><font size="2"><b><font face="Verdana, Arial, Helvetica, sans-serif">sen(L)</font></b>=<font face="Verdana, Arial, Helvetica, sans-serif"><b>n<sub>1</sub></b></font>/<b><font face="Verdana, Arial, Helvetica, sans-serif">n<sub>2</sub></font></b>, <font face="Verdana, Arial, Helvetica, sans-serif">explique para quais situa&ccedil;&otilde;es &eacute; poss&iacute;vel obter reflex&atilde;o total.</font></font> </p>
+<p class="style9">4-  Para que haja reflex&atilde;o total da luz, &eacute; necess&aacute;rio que o &acirc;ngulo:<br>
+  a) de incid&ecirc;ncia seja maior que o &acirc;ngulo limite.<br>
+  b) de refra&ccedil;&atilde;o seja igual ao &acirc;ngulo limite.<br>
+  c) limite seja o dobro do &acirc;ngulo de incid&ecirc;ncia.<br>
+  d) de incid&ecirc;ncia seja maior que o &acirc;ngulo limite e que a incid&ecirc;ncia se d&ecirc; do meio mais refringente para o menos refringente.<br>
+e) de incid&ecirc;ncia seja maior que o &acirc;ngulo limite e que a incid&ecirc;ncia se d&ecirc; do meio menos refringente para o mais refringente.</p>
+<h1 align="left" class="style3 style12">Quest&atilde;o 4 do vestibular da UFPA</h1>
+
+</body>
+</html>

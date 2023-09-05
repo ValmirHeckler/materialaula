@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<script language="JavaScript">
+<!--
+function prb24_5(){
+       document.Ripple.deleteAll(); 
+		document.Ripple.setWavelength(0.8);
+		document.Ripple.addSource(-1, -5.0, 1, 0);       
+		document.Ripple.addSource(1, -5.0, 1, 0);
+       document.Ripple.forward();
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+
+<title>Dupla fenda escondida</title>
+</head>
+
+<body onload="prb24_5()">
+
+<p align="center"><b><font color="#000066" face="Verdana, Arial, Helvetica, sans-serif">7.1 - Fontes e Ondas Coerentes</font></b></p>
+<p style='text-align:justify'><span style='font-size:10.0pt;font-family:Verdana'>Ao combinar-se duas ou mais onda ocorrer&aacute; o fen&ocirc;meno de interfer&ecirc;ncia, fen&ocirc;meno este que n&atilde;o pode ser explicado pelo modelo da &oacute;tica geom&eacute;trica, onde representa-se a luz por meio de raios. Exemplos como as belas imagens proporcionadas pelos fen&ocirc;menos de interfer&ecirc;ncia, provocados pela reflex&atilde;o dos raios de luz, de pel&iacute;culas de &oacute;leo espalhadas no asfalto ou das bolhas de sab&atilde;o, que s&oacute; podem ser explicados atrav&eacute;s do modelo ondulat&oacute;rio da luz.</span></p>
+<p align="justify"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Portanto a Interfer&ecirc;ncia &eacute; um importante fen&ocirc;meno que distingue as ondas de part&iacute;culas, sendo uma combina&ccedil;&atilde;o de duas ou mais ondas, que ao encontrarem-se numa mesma regi&atilde;o do espa&ccedil;o, resultam em uma superposi&ccedil;&atilde;o. </font></p>
+<p align="justify"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Abaixo na simula&ccedil;&atilde;o (simula&ccedil;&atilde;o 7.1.1), observa-se que existem dois pontos oscilantes no interior de cuba com &aacute;gua, como os ciclos de oscila&ccedil;&atilde;o sempre s&atilde;o os mesmos, podemos afirmar, que as duas fontes criam <strong>ondas coerentes</strong>, ou seja, ondas com a mesma fase e mesma freq&uuml;&ecirc;ncia. Ao haver a superposi&ccedil;&atilde;o dessas ondas, verifica-se que existem as &aacute;reas de <strong>interfer&ecirc;ncia construtiva</strong>, onde cristas se superp&otilde;em a cristas (ondas encontram-se em mesma fase), e &aacute;reas de <strong>interfer&ecirc;ncia destrutiva</strong> devido a superposi&ccedil;&atilde;o de cristas com vales (ondas encontram-se com diferen&ccedil;a de fase).</font></p>
+<div align="center">
+
+<p>
+<applet code="ripple.Ripple.class" codebase="classes/" archive="Ripple.jar" name="Ripple"
+id="Ripple" width="360" height="360">
+  <param name="numberOfSources" value="0">
+  <param name="pixPerUnit" value="50">
+  <param name="wavelength" value="0.5">
+  <param name="showControls" value="false">
+  <param name="showIntensity" value="false">
+  <param name="animate" value="true">
+  <param name="fps" value="10">
+  <param name="caption" value="Ripple Tank">
+</applet>
+
+<dl><dd><form>
+      <div align="center"><center><p><input type="button" value="Executar"
+      onclick="document.Ripple.forward()"><input type="button" value="Parar"
+      onclick="document.Ripple.pause()">
+        <br>
+        <font size="1" face="Verdana, Arial, Helvetica, sans-serif">Simulador 7.1.1 - Simulador de interfer&ecirc;ncia de ondas - desenvolvido por <B><A 
+href="http://webphysics.davidson.edu/applets/applets.html">Davidson College</A></B> </font></p>
+          </center></div>
+    </form>
+  </dd>
+</dl>
+</div>
+
+<p><font size="1" face="Verdana, Arial, Helvetica, sans-serif">O material abaixo que fala sobre a <em><strong>interfer&ecirc;ncia de duas ondas</strong></em>, inclusive o simulador java applet foram extra&iacute;dos e adaptados do material produzido por Walter Fendt, dispon&iacute;vel no endere&ccedil;o:www.walter-fendt.de/ph11d.</font></p>
+<div align="justify">
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">O simulador Java applet (simula&ccedil;&atilde;o 7.1.2), mostra a interfer&ecirc;ncia de duas ondas esf&eacute;ricas ou circulares (por exemplo ondas de &aacute;gua ou de som). As ondas s&atilde;o origindas, e propagam-se a partir de duas fontes que oscilam com mesma fase. </font></p>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><font color="#FF0000">Voc&ecirc; dever&aacute; simular dois casos extremos</font></strong>:</font></p>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">1<sup>0</sup> - Alterando no simulador, a diferen&ccedil;a da dist&acirc;ncia entre as duas fontes <img src="../../img/teltas.gif" width="26" height="18">, tornando-a uma integral m&uacute;ltipla do comprimento de onda <img src="../../img/lambida2.gif" width="12" height="14"> (exemplo: 2<img src="../../img/lambida2.gif" width="12" height="14">, 4<img src="../../img/lambida2.gif" width="12" height="14">, 6<img src="../../img/lambida2.gif" width="12" height="14">...), anote o que acontece com a fase das ondas e suas amplitudes (circulos pretos e cinzas), buscando classificar as ondas em construtivas ou destrutivas.</font></p>
+  <p> <font size="2" face="Verdana, Arial, Helvetica, sans-serif">2<sup>0</sup> - Alterando no simulador, a diferen&ccedil;a da dist&acirc;ncia entre as duas fontes <img src="../../img/teltas.gif" width="26" height="18">, tornando-a agora a metade &iacute;mpar da integral m&uacute;ltipla do comprimento de onda <img src="../../img/lambida2.gif" width="12" height="14">, (exemplo: 3<img src="../../img/lambida2.gif" width="12" height="14">, 5<img src="../../img/lambida2.gif" width="12" height="14">, 7<img src="../../img/lambida2.gif" width="12" height="14">...), anote o que acontece nos pontos situados nas curvas azuis e curvas vermelhas, com a fase das ondas e suas amplitudes, buscando classificar as ondas em construtivas ou destrutivas.</font></p>
+  <p><font color="#000099" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Orienta&ccedil;&atilde;o sobre o uso do simulador</strong>: O bot&atilde;o &quot;Pausa&nbsp;/&nbsp;Rein&iacute;cio&quot; torna poss&iacute;vel parar ou continuar a simula&ccedil;&atilde;o. Se voc&ecirc; escolher a op&ccedil;&atilde;o &quot;C&acirc;mara lenta&quot;, a anima&ccedil;&atilde;o ficar&aacute; cinco vezes mais lenta. Pode-se variar a dist&acirc;ncia das duas fontes usando os campos respectivos (n&atilde;o esque&ccedil;a do &quot;Enter&quot; depois!). Na parte inferior, o programa indica a diferen&ccedil;a da dist&acirc;ncia entre as duas fontes (veja acima) atrav&eacute;s do ponto violeta. Voc&ecirc; pode mover este ponto com o bot&atilde;o do mouse</font><font size="2" face="Verdana, Arial, Helvetica, sans-serif">.</font> </p>
+</div>
+<p align="center" onClick="MM_openBrWindow('simulador.htm','','width=630,height=395')"> <a href="#"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Clique aqui para ver o Simulador </font></font></a></p>
+<p><strong><font color="#000099" size="2" face="Verdana, Arial, Helvetica, sans-serif">Voc&ecirc; deve estar se perguntando: &quot;Por que estudar interfer&ecirc;ncia de ondas sonoras, ou ondas na &aacute;gua, em &Oacute;tica?&quot;</font></strong></p>
+<p align="justify"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif">&Eacute; que o fen&ocirc;meno de interfer&ecirc;ncia, n&atilde;o s&oacute; acontece em casos vis&iacute;veis, com os acima tratados (ondas sonoras ou ondas na &aacute;gua), mas tamb&eacute;m &eacute; aplicado e v&aacute;lido a todas as ondas. Aborda-se no estudo sobre o experimento Thomas Young (cap&iacute;tulo 7.2), a natureza ondulat&oacute;ria da luz, onde o mesmo prova a exist&ecirc;ncia da interfer&ecirc;ncia da luz.</font></p>
+<h4>&nbsp;</h4>
+</body>
+</html>
